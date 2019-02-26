@@ -9,6 +9,12 @@
               	      <fileset dir = "${web.dir}/WebContent">
               	         <include name = "**/*.*"/>
               	      </fileset>
-              	  </war>
-              	 </target>
+              	      
+              	      <lib dir = "thirdpartyjars">
+              	         <exclude name = "portlet.jar"/>
+              	      </lib>
+              	      
+              	      <classes dir = "${build.dir}/web"/>
+              	   </war>
+              	</target>
     </project>
