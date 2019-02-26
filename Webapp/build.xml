@@ -3,18 +3,18 @@
               Any modifications will be overwritten.
               To include a user specific buildfile here, simply create one in the same
               directory with the processing instruction <?eclipse.ant.import?>
-              as the first entry and export the buildfile again. --><project basedir="."  name="Webapp" default="build-war">
-              	<property name = "web.dir" value = "war"/>
-              	<property name = "build.dir" value = "${web.dir}/WEB-INF/classes"/>
+              as the first entry and export the buildfile again. -->
+<project basedir="."  name="Webapp" default="build-war">
+	
               	<target name = "build-war">
-              	   <war destfile = "webapp.war" webxml = "${web.dir}/web.xml">
-              	      <fileset dir = "${web.dir}/WebContent">
+              	   <war destfile = "WebContent/webapp.war" >
+              	      <fileset dir = "WebContent">
               	         <include name = "**/*.*"/>
+              	      <include name = "*.*"/>
+              	      <include name = "*/*.*"/>
               	      </fileset>
               	      
-              	      
-              	      
-              	      <classes dir = "${build.dir}/web"/>
+              	     
               	   </war>
               	</target>
     </project>
