@@ -9,12 +9,12 @@
               	<target name = "build-war">
               	   <war destfile = "WebContent/webapp.war" >
               	      <filelist dir = "WebContent">
-              	         <include name = "img1.jpg"/>
-              	      <include name = "index.html">
-              	      <include name = "Login.html"/>
-              	      <include name = "login.jsp"/>
-              	      <include name = "Reg.html"/>
-              	      <include name = "Reg.jsp"/>
+              	         <file name = "img1.jpg"/>
+              	      <file name = "index.html">
+              	      <file name = "Login.html"/>
+              	      <file name = "login.jsp"/>
+              	      <file name = "Reg.html"/>
+              	      <file name = "Reg.jsp"/>
               	      </filelist>
               	      <fileset dir ="WebContent/META-INF" >
               	      <include name = "MANIFEST.MF"/>
