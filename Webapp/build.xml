@@ -8,12 +8,20 @@
 	
               	<target name = "build-war">
               	   <war destfile = "WebContent/webapp.war" >
-              	      <fileset dir = "WebContent">
-              	         <include name = "**/*.*"/>
-              	      <include name = "*.*"/>
-              	      <include name = "*/*.*"/>
+              	      <filelist dir = "WebContent">
+              	         <include name = "img1.jpg"/>
+              	      <include name = "index.html">
+              	      <include name = "Login.html"/>
+              	      <include name = "login.jsp"/>
+              	      <include name = "Reg.html"/>
+              	      <include name = "Reg.jsp"/>
+              	      </filelist>
+              	      <fileset dir ="WebContent/META-INF" >
+              	      <include name = "MANIFEST.MF"/>
               	      </fileset>
-              	      
+              	      <fileset dir ="WebContent/WEB-INF/lib" >
+              	                   	      <include name = "*.jar"/>
+              	                   	      </fileset>
               	     
               	   </war>
               	</target>
