@@ -13,6 +13,7 @@
               	      <file name = "index.html"/>
               	      <file name = "Login.html"/>
               	      <file name = "login.jsp"/>
+              	      <file name = "Reg.html"/>
               	      <file name = "Reg.jsp"/>
               	      </filelist>
               	      <fileset dir ="WebContent/META-INF" >
