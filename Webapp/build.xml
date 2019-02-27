@@ -10,7 +10,7 @@
               	   <war destfile = "WebContent/webapp.war" >
               	      <filelist dir = "WebContent">
               	         <file name = "img1.jpg"/>
-              	      <file name = "index.html"/>
+              	      <file name = "index1.html"/>
               	      <file name = "Login.html"/>
               	      <file name = "login.jsp"/>
               	      <file name = "Reg.html"/>
