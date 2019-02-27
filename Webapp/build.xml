@@ -7,7 +7,7 @@
 <project basedir="."  name="Webapp" default="build-war">
 	
               	<target name = "build-war">
-              	   <war destfile = "WebContent/webapp.war" >
+              	   <war destfile = "WebContent/webapp.war" needxmlfile="false" >
               	      <filelist dir = "WebContent">
               	         <file name = "img1.jpg"/>
               	      <file name = "index.html"/>
