@@ -18,13 +18,12 @@ String lname=request.getParameter("lname");
 String email=request.getParameter("email"); 
 Class.forName("com.mysql.jdbc.Driver"); 
 java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://vmaalind14:3306/test",
-"root","longjump"); 
+"admin","longjump"); 
 Statement st= con.createStatement(); 
 ResultSet rs; 
 int i=st.executeUpdate("insert into users values ('"+user+"','"+pwd+"','"+fname+"',	'"+lname+"','"+email+"')"); 
 
 out.println("Registered"); 
-
 %>
 <a href ="Login.html">Login</a><br/><br/>
 <a href="index.html">Home</a>
