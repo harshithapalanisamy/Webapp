@@ -17,7 +17,7 @@ String fname=request.getParameter("fname");
 String lname=request.getParameter("lname"); 
 String email=request.getParameter("email"); 
 Class.forName("com.mysql.jdbc.Driver"); 
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://vmaalind14:3308/test",
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost/test",
 "root","longjump"); 
 Statement st= con.createStatement(); 
 ResultSet rs; 
