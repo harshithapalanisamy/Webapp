@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login Page</title>
+<title>Login</title>
 </head>
 <body>
 <%@ page import="java.sql.*"%>
@@ -31,7 +31,7 @@ out.println("Invalid password try again");
 } 
 else 
 %>
-<a href="index.html">Home</a>
+<a href="index.html" id="home">Home</a>
 
 </body>
 </html>
