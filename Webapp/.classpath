@@ -13,8 +13,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path=".classpath"/>
-	<classpathentry kind="lib" path="C:/Users/harp/Downloads/jwebunit-3.3-release/jwebunit-core-3.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/harp/Downloads/jwebunit-3.3-release/jwebunit-htmlunit-plugin-3.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
